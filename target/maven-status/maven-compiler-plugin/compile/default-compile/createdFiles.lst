@@ -1,0 +1,7 @@
+com\hwadee\ssm\service\GoodsService.class
+com\hwadee\ssm\entity\overtime.class
+com\hwadee\ssm\entity\Goods.class
+com\hwadee\ssm\mappers\GoodsMapper.class
+com\hwadee\ssm\swagger\Swagger2.class
+com\hwadee\ssm\controller\GoodsController.class
+com\hwadee\ssm\entity\List.class
