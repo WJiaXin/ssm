@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f721ecd4-8363-4320-b71b-10df444ce0bd" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f721ecd4-8363-4320-b71b-10df444ce0bd" name="Default Changelist" comment="ssm">
       <change beforePath="$PROJECT_DIR$/src/main/webapp/1234.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/1234.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/entity/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/entity/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +70,8 @@
       <file leaf-file-name="1234.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/1234.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="48">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -785,7 +783,7 @@
       <workItem from="1589280741718" duration="597000" />
       <workItem from="1589352567030" duration="756000" />
       <workItem from="1593439296680" duration="2883000" />
-      <workItem from="1593482237370" duration="7816000" />
+      <workItem from="1593482237370" duration="8501000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1593488998782</created>
@@ -801,11 +799,18 @@
       <option name="project" value="LOCAL" />
       <updated>1593493893132</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ssm">
+      <created>1593494287499</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593494287499</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="883502000" />
+    <option name="totallyTimeSpent" value="884187000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,20 +823,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49961028" weight="0.32831326" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.49961028" weight="0.3298193" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5013405" side_tool="true" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5020107" side_tool="true" visible="true" weight="0.32911393" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49865952" visible="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.8063003" weight="0.24753867" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="16" sideWeight="0.49798927" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.80563" weight="0.24753867" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49961028" weight="0.67018074" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49883085" weight="0.32831326" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966292" visible="true" weight="0.21514745" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4966292" visible="true" weight="0.21514745" />
       <window_info anchor="bottom" id="Statistic" />
       <window_info id="Web" order="7" sideWeight="0.50337076" side_tool="true" weight="0.40296182" />
       <window_info anchor="right" id="Database" order="6" visible="true" weight="0.20911528" />
@@ -903,7 +909,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="ssm" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1110,8 +1117,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/1234.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="48">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
