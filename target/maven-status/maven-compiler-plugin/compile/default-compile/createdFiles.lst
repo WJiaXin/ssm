@@ -1,7 +1,8 @@
-com\hwadee\ssm\service\GoodsService.class
-com\hwadee\ssm\entity\overtime.class
-com\hwadee\ssm\entity\Goods.class
-com\hwadee\ssm\mappers\GoodsMapper.class
+com\hwadee\ssm\service\WorkOvertimeService.class
+com\hwadee\ssm\entity\User.class
+com\hwadee\ssm\mappers\WorkOvertimeDao.class
 com\hwadee\ssm\swagger\Swagger2.class
-com\hwadee\ssm\controller\GoodsController.class
-com\hwadee\ssm\entity\List.class
+com\hwadee\ssm\service\WorkOvertimeServiceimpl.class
+com\hwadee\ssm\controller\WorkOvertimeController.class
+com\hwadee\ssm\entity\WorkOvertime.class
+com\hwadee\ssm\entity\Logs.class

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace指向对应的接口-->
+<mapper namespace="com.hwadee.ssm.mappers.WorkOvertimeDao">
+
+	<select id="getData" resultType="com.hwadee.ssm.entity.WorkOvertime">
+      select *from work_overtime where data=#{time}
+  	</select>
+	<insert id="postData">
+    insert into work_overtime values (#{data},#{award},#{type})
+	</insert>
+    <update id="putData">
+	update work_overtime set award=#{award},type=#{type} where data=#{data}
+	</update>
+	<select id="getDataUsers" resultType="net.sf.json.JSONObject">
+		select l.log_date,u.name,u.phone,w.type,l.log_award
+		from work_overtime w
+			left join `logs` l on l.log_date=w.`data`
+			left join user u on l.log_userId=u.phone
+		where l.log_date=#{time} and l.log_state=1
+	</select>
+</mapper>
