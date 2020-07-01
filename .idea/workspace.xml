@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f721ecd4-8363-4320-b71b-10df444ce0bd" name="Default Changelist" comment="ssm">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/1234.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/1234.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/44be4e89-c49f-43e6-86d4-952f811feb02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/44be4e89-c49f-43e6-86d4-952f811feb02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,145 +35,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="ssm" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1236">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="129" column="23" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1234.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/1234.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Goods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Goods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Swagger2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/swagger/Swagger2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overtime.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/overtime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-              <folding>
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/service/GoodsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/GoodsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -225,84 +84,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/testone2.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/list.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/LayuiPageInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/test.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hwadee/ssm/service/GoodsServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/tryajax.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/report.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/weekend.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ceshi.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/weizhi1.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/weizhi2.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/weizhi3.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/weizhi4.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/TEST2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/Main2.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/MAIN.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Info1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Lose.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Weekend.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Report.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/MAIN3.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/MAIN2.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/MAIN4.html" />
-        <option value="/e0922b3f/1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/routine/2@().sql" />
-        <option value="$PROJECT_DIR$/src/main/webapp/theadmin.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/Group.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Info.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ae370bc-6aa0-4041-b076-2482ed951693/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/goods-mapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/list.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/List.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/overtime.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/webdefault.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/1234.js" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/mappers/GoodsMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/swagger/Swagger2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Goods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/1234.html" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="126" />
@@ -312,116 +99,10 @@
   </component>
   <component name="ProjectId" id="1P4oZ3k188oumvXjLzKUYDdWI6E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -473,119 +154,7 @@
       <recent name="E:\JavaProjects\ssm\src\main\webapp" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Maven.ssm [jetty:run]">
-    <configuration name="Group" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hwadee.ssm.controller.Group" />
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hwadee.ssm.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hwadee.ssm.controller.Main" />
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hwadee.ssm.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hwadee.ssm.controller.test" />
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hwadee.ssm.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="GoodsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hwadee.ssm.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.hwadee.ssm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.hwadee.ssm.service.GoodsServiceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GoodsServiceTest.initGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hwadee.ssm.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.hwadee.ssm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.hwadee.ssm.service.GoodsServiceTest" />
-      <option name="METHOD_NAME" value="initGoods" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ssm [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="jetty:run" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -644,13 +213,112 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Group" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hwadee.ssm.controller.Group" />
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hwadee.ssm.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hwadee.ssm.controller.Main" />
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hwadee.ssm.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hwadee.ssm.controller.test" />
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hwadee.ssm.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hwadee.ssm.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hwadee.ssm.service" />
+      <option name="MAIN_CLASS_NAME" value="com.hwadee.ssm.service.GoodsServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsServiceTest.initGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hwadee.ssm.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hwadee.ssm.service" />
+      <option name="MAIN_CLASS_NAME" value="com.hwadee.ssm.service.GoodsServiceTest" />
+      <option name="METHOD_NAME" value="initGoods" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ssm [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Maven.ssm [jetty:run]" />
       <item itemvalue="Application.Group" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.test" />
       <item itemvalue="JUnit.GoodsServiceTest" />
       <item itemvalue="JUnit.GoodsServiceTest.initGoods" />
+      <item itemvalue="Maven.ssm [jetty:run]" />
     </list>
     <recent_temporary>
       <list>
@@ -661,6 +329,18 @@
         <item itemvalue="JUnit.GoodsServiceTest.initGoods" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SpringBeansView">
     <option name="beanDetailsProportion" value="0.3" />
@@ -784,6 +464,7 @@
       <workItem from="1589352567030" duration="756000" />
       <workItem from="1593439296680" duration="2883000" />
       <workItem from="1593482237370" duration="8501000" />
+      <workItem from="1593591545806" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1593488998782</created>
@@ -809,9 +490,6 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="884187000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -820,50 +498,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49961028" weight="0.32831326" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.49961028" weight="0.3298193" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5020107" side_tool="true" visible="true" weight="0.32911393" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="16" sideWeight="0.49798927" visible="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.80563" weight="0.24753867" />
-      <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49961028" weight="0.67018074" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49883085" weight="0.32831326" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4966292" visible="true" weight="0.21514745" />
-      <window_info anchor="bottom" id="Statistic" />
-      <window_info id="Web" order="7" sideWeight="0.50337076" side_tool="true" weight="0.40296182" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.20911528" />
-      <window_info anchor="right" id="SciView" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24941543" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50337076" side_tool="true" weight="0.40296182" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.3988764" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info id="Image Layers" order="6" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="10" visible="true" weight="0.3248503" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Duplicates" order="17" weight="0.32974428" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49883085" weight="0.32831326" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.25429016" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.3298193" />
-      <window_info anchor="bottom" id="Find" order="3" visible="true" weight="0.32956153" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -884,244 +518,31 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="ssm" />
     <option name="LAST_COMMIT_MESSAGE" value="ssm" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Notifications" timestamp="1593592176527">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1593592176527" />
+    <state x="499" y="214" key="git4idea.merge.GitPullDialog" timestamp="1593592083308">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593592083308" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/MAIN.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/MAIN4.html" />
-    <entry file="das://1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/table/报名信息.sql" />
-    <entry file="das://1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/table/yzm" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Lose.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Report.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Weekend.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/package-info.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy" />
-    <entry file="dbSrc:///e0922b3f/1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/routine/3@().sql" />
-    <entry file="dbSrc:///e0922b3f/1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/routine/4@().sql" />
-    <entry file="dbSrc:///e0922b3f/1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/routine/2@().sql" />
-    <entry file="das://1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/table/登录信息" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/theadmin.html" />
-    <entry file="das://1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/table/失信记录" />
-    <entry file="das://1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/table/投诉" />
-    <entry file="das://1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/table/比赛评分" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Info1.java" />
-    <entry file="das://1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/table/报名信息" />
-    <entry file="das://1ae370bc-6aa0-4041-b076-2482ed951693/schema/com/table/周赛选手" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/MAIN2.html" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ae370bc-6aa0-4041-b076-2482ed951693/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5855186e-da36-4efc-8c23-d3f49b15075b/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/44be4e89-c49f-43e6-86d4-952f811feb02/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/Group.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/TestController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/goods-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webdefault.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="510" column="34" selection-start-line="510" selection-start-column="34" selection-end-line="510" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/1234.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="8" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery-3.4.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/find.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/list.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/one-goods.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/test.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/mappers/GoodsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/overtime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1236">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="129" column="23" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hwadee/ssm/swagger/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/1234.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
