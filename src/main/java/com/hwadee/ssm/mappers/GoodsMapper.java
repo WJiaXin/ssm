@@ -11,6 +11,6 @@ import java.util.List;
 public interface GoodsMapper {
     //方法名与Mapper中的方法名对应
 
-    Goods findById(String BMID);
+    public  Goods login(@Param("admin") String admin);
 
 }
