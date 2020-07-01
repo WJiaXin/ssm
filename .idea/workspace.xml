@@ -32,10 +32,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ecd4-8363-4320-b71b-10df444ce0bd" name="Default Changelist" comment="ssm">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/mappers/GoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/mappers/GoodsMapper.java" afterDir="false" />
-    </list>
+    <list default="true" id="f721ecd4-8363-4320-b71b-10df444ce0bd" name="Default Changelist" comment="ssm" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -472,7 +469,7 @@
       <workItem from="1589352567030" duration="756000" />
       <workItem from="1593439296680" duration="2883000" />
       <workItem from="1593482237370" duration="8501000" />
-      <workItem from="1593565678897" duration="109000" />
+      <workItem from="1593565678897" duration="445000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1593488998782</created>
@@ -502,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593565730556</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ssm">
+      <created>1593565913222</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593565913222</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -543,6 +547,20 @@
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="ssm" />
     <option name="LAST_COMMIT_MESSAGE" value="ssm" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="148" y="73" key="DiffContextDialog" timestamp="1593565933441">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="148" y="73" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1593565933441" />
+    <state x="362" y="153" key="Vcs.Push.Dialog.v2" timestamp="1593565934813">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593565934813" />
+    <state x="496" y="207" key="git4idea.merge.GitPullDialog" timestamp="1593565890913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="207" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593565890913" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
