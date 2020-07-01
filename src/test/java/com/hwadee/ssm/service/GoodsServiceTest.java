@@ -31,8 +31,7 @@ public class GoodsServiceTest {
 	public void doAfter(){
 		System.out.println("释放数据库Connection对象");
 	}
-    @Resource
-    GoodsService goodsService = null;
+
 
    // @Test
     //@Transactional加上后，默认在测试用例执行成功后，为了测试数据不污染原始数据会自动回滚
