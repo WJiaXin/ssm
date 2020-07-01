@@ -1,5 +1,6 @@
 package com.hwadee.ssm.service;
 
+import com.hwadee.ssm.entity.Logs;
 import com.hwadee.ssm.entity.WorkOvertime;
 import com.hwadee.ssm.mappers.WorkOvertimeDao;
 import net.sf.json.JSONObject;
@@ -28,5 +29,13 @@ public class WorkOvertimeServiceimpl implements WorkOvertimeService{
     @Override
     public List<JSONObject> getDataUsers(String time){
         return workOvertimeDao.getDataUsers(time);
+    }
+    @Override
+    public List<JSONObject> getDataLogs(String time){
+        return workOvertimeDao.getDataLogs(time);
+    }
+    @Override
+    public int putLogs(Integer logId,Integer state){
+        return workOvertimeDao.putLogs(logId,state);
     }
 }

@@ -1,5 +1,6 @@
 package com.hwadee.ssm.service;
 
+import com.hwadee.ssm.entity.Logs;
 import com.hwadee.ssm.entity.WorkOvertime;
 import net.sf.json.JSONObject;
 
@@ -10,4 +11,6 @@ public interface WorkOvertimeService {
     int postData(WorkOvertime workOvertime);
     int putData(WorkOvertime workOvertime);
     List<JSONObject> getDataUsers(String time);
+    List<JSONObject> getDataLogs(String time);
+    int putLogs(Integer logId,Integer state);
 }

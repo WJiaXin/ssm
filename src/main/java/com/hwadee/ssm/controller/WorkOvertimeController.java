@@ -18,7 +18,7 @@ public class WorkOvertimeController{
     @GetMapping("workOvertime/{data}")
     @ApiOperation("获取指定日期餐/费选择")
     @ApiImplicitParam(name = "data", value = "日期", required = false,
-            dataType = "string", paramType = "query", defaultValue = "2020-06-29")
+            dataType = "string", paramType = "path", defaultValue = "2020-06-29")
     public WorkOvertime getData(@PathVariable("data") String data){
        return workOvertimeService.getData(data);
     }
@@ -39,8 +39,28 @@ public class WorkOvertimeController{
     @GetMapping("workOvertime/user/{data}")
     @ApiOperation("获取指定日期加班人员")
     @ApiImplicitParam(name = "data", value = "日期", required = false,
-            dataType = "string", paramType = "query", defaultValue = "2020-06-29")
+            dataType = "string", paramType = "path", defaultValue = "2020-06-29")
     public List<JSONObject> getDataUsers(@PathVariable("data") String data){
         return workOvertimeService.getDataUsers(data);
+    }
+    @GetMapping("workOvertime/logs/{data}")
+    @ApiOperation("获取指定日期申请记录")
+    @ApiImplicitParam(name = "data", value = "日期", required = false,
+            dataType = "string", paramType = "path", defaultValue = "2020-06-29")
+    public List<JSONObject> getDataLogs(@PathVariable("data") String data){
+        return workOvertimeService.getDataLogs(data);
+    }
+
+    @PutMapping("workOvertime/logs/{log_id}/{state}")
+    @ApiOperation("审批指定日期申请记录")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "log_id", value = "记录id", required = false,
+                    dataType = "int", paramType = "path", defaultValue = "1"),
+            @ApiImplicitParam(name = "state", value = "状态(1:同意、2:拒绝", required = false,
+                    dataType = "int", paramType = "path", defaultValue = "1")
+    }
+    )
+    public int putLogs(@PathVariable("log_id") Integer log_id,@PathVariable("state") Integer state){
+        return workOvertimeService.putLogs(log_id,state);
     }
 }
