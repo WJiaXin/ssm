@@ -20,6 +20,11 @@
     a:hover{
         color: #FFF;
     }
+    .table td {
+        padding: 0.75rem;
+        vertical-align: middle;
+        border-top: 1px solid #dee2e6;
+    }
 </style>
 <body>
 <div style="position:absolute;height: 100%;width: 100%;">
@@ -131,18 +136,18 @@
                            <h5 class="mb-3">加班统计</h5>
                            <table class="table" style="border-top: solid 2px">
                                <tr>
-                                   <th>序号</th>   <th>姓名</th> <th>号码</th> <th>加班餐/费</th> <th>内容</th>
+                                   <th>序号</th> <th>日期</th>  <th>姓名</th> <th>号码</th> <th>加班餐/费</th> <th>内容</th>
                                </tr>
                                </thead>
                                <tbody class="table-primary">
                                <tr>
-                                   <td> 1 </td>  <td> 张三</td> <td>11122223333</td> <td>加班餐</td> <td>套餐1</td>
+                                   <td> 1 </td> <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐</td> <td>套餐1</td>
                                </tr>
                                <tr>
-                                   <td> 2 </td>  <td> 张三</td> <td>11122223333</td> <td>加班费</td> <td>100元</td>
+                                   <td> 2 </td> <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班费</td> <td>100元</td>
                                </tr>
                                <tr>
-                                   <td> 3 </td>  <td> 张三</td> <td>11122223333</td> <td>加班餐</td> <td>套餐1</td>
+                                   <td> 3 </td> <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐</td> <td>套餐1</td>
                                </tr>
                                </tbody>
                            </table>
@@ -150,23 +155,31 @@
                        </div>
 
                        <div id="WOexa" class="tab-pane h-100 p-0">
-                           <table class="table table-primary">
+                           <table class="table">
                                <tr>
                                    <th>日期</th>  <th>姓名</th> <th>号码</th> <th>申请内容</th> <th>审批</th>
                                </tr>
                                </thead>
-                               <tbody>
-                               <tr>
-                                   <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐：套餐1</td>
-                                   <td><button class="btn btn-default rounded mr-3" style="background-color: #00CC00; color:#FFF;">同意</button> <button class="btn btn-default rounded" style="background-color:#b92c28; color:#FFF;">拒绝</button></td>
+                               <tbody >
+                               <tr >
+                                   <td valign="middle">01/04/2012</td> <td valign="middle"> 张三</td> <td valign="middle">11122223333</td> <td valign="middle">加班餐：套餐2</td>
+                                   <td valign="middle"> <button class="btn btn-default rounded mr-3 pt-1 pb-1" style="background-color: #00CC00; color:#FFF;">同意</button> <button class="btn btn-default rounded pt-1 pb-1" style="background-color:#b92c28; color:#FFF;">拒绝</button></td>
                                </tr>
                                <tr>
-                                   <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班费：100元</td>
-                                   <td> <button class="btn btn-default rounded mr-3" style="background-color: #00CC00; color:#FFF;">同意</button> <button class="btn btn-default rounded" style="background-color:#b92c28; color:#FFF;">拒绝</button></td>
+                                   <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐：套餐2</td>
+                                   <td> <button class="btn btn-default rounded mr-3 pt-1 pb-1" style="background-color: #00CC00; color:#FFF;">同意</button> <button class="btn btn-default rounded pt-1 pb-1" style="background-color:#b92c28; color:#FFF;">拒绝</button></td>
                                </tr>
                                <tr>
                                   <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐：套餐2</td>
-                                   <td> <button class="btn btn-default rounded mr-3" style="background-color: #00CC00; color:#FFF;">同意</button> <button class="btn btn-default rounded" style="background-color:#b92c28; color:#FFF;">拒绝</button></td>
+                                   <td> <button class="btn btn-default rounded mr-3 pt-1 pb-1" style="background-color: #00CC00; color:#FFF;">同意</button> <button class="btn btn-default rounded pt-1 pb-1" style="background-color:#b92c28; color:#FFF;">拒绝</button></td>
+                               </tr>
+                               <tr>
+                                   <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐：套餐2</td>
+                                   <td style="color: #00CC00;"> 已同意 </td>
+                               </tr>
+                               <tr>
+                                   <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐：套餐2</td>
+                                   <td style="color: #b92c28;"> 已拒绝 </td>
                                </tr>
                                </tbody>
                            </table>
