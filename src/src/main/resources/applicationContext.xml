@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+">
+
+	<!--启用 Spring 注解形式，其扫描的包为com.hwadee.ssm及其子包
+		由DispatcherServlet自动调用并配置-->
+	<context:component-scan base-package="com.hwadee.ssm"/>
+	<!--启用 Spring MVC 的注解模式-->
+	<mvc:annotation-driven>
+		<mvc:message-converters>
+			<bean class="org.springframework.http.converter.StringHttpMessageConverter">
+				<!--配置支持的媒体类型（MIME)-->
+				<property name="supportedMediaTypes">
+					<list>
+						<!--响应输出的文本被浏览器作为html进行解释，使用字符集为UTF-8-->
+						<value>text/html;charset=utf-8</value>
+					</list>
+				</property>
+			</bean>
+		</mvc:message-converters>
+	</mvc:annotation-driven>
+	<!--启用默认处理方式，将静态资源排除在外（不解析静态资源）-->
+	<mvc:default-servlet-handler/>
+
+	<!--FreeMarkerViewResolver是Spring Context Support提供的整合类
+	在 IOC 容器初始化时通知 SpringMVC 默认使用 Freemarker 进行数据渲染-->
+	<bean id="ViewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+		<!-- 设置响应输出(渲染结果),并解决中文乱码-->
+		<property name="contentType" value="text/html;charset=utf-8"/>
+		<!-- 指定 Freemaker 模板文件的扩展名 -->
+		<property name="suffix" value=".ftl"/>
+	</bean>
+
+	<bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+		<!--定义模板文件保存目录(视图的根)-->
+		<property name="templateLoaderPath" value="/WEB-INF/ftl"/>
+		<!--Freemarker的其他设置-->
+		<property name="freemarkerSettings">
+			<props>
+				<!--设置freemarker脚本(模板文件.ftl)与数据渲染时使用的字符集-->
+				<prop key="defaultEncoding">UTF-8</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!--mybatis整合配置，Mybatis与Spring整合是指SqlSessionFactory对象不再由程序自己创建
+	改由SpringIOC容器创建与管理，这样做的好处是配置方便，并在此基础上为Mybatis扩展了很多功能-->
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+		<property name="url" value="jdbc:mysql://172.16.111.176:3306/workovertime?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
+		<property name="username" value="root"/>
+		<property name="password" value="newpwd"/>
+		<!--在初始化连接池时默认创建的5个连接-->
+		<property name="initialSize" value="5"/>
+		<!--最大连接数-->
+		<property name="maxActive" value="20"/>
+		<!--设置在空闲时最少保持的连接数，加上正在使用的，不超过maxActive-->
+		<property name="minIdle" value="5"/>
+		<!--请求数据库连接时最大等待时间（毫秒）60秒-->
+		<property name="maxWait" value="60000"/>
+		<!--是否在分析连接时测试连接的有效性-->
+		<property name="testOnBorrow" value="false"/>
+		<!--是否在归还时测试连接的有效性-->
+		<property name="testOnReturn" value="false"/>
+		<!--是否在连接空闲状态时测试连接的有效性-->
+		<property name="testWhileIdle" value="true"/>
+		<!--测试连接有效性的SQL语句-->
+		<property name="validationQuery" value="SELECT 1"/>
+		<!--用于开启监控过滤器，stat是SQL及Web监控；wall 是预防SQL注入攻击；slf4j是日志输出-->
+		<property name="filters" value="stat,wall,slf4j"/>
+		<!--mergeSQL对相同的SQL语句进行合并统计
+			slowSqlMillis定义超过500ms执行时间的SQL为慢查询-->
+		<property name="connectionProperties" value="druid.state.mergeSql=true;druid.stat.slowSqlMillis=500"/>
+	</bean>
+
+	<!--配置SqlSessionFactoryBean，Bean的id必须为sqlSessionFactory-->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!--指向前面配置的数据源-->
+		<property name="dataSource" ref="dataSource"/>
+		<!--mybatis的配置文件地址，位于项目的resources目录下-->
+		<property name="configLocation" value="classpath:mybatis-config.xml"/>
+		<!--mybatis的Mapper文件扫描地址，位于项目的resources/mappers目录下所有xml文件-->
+		<property name="mapperLocations" value="classpath:mappers/*.xml"/>
+	</bean>
+
+	<!--Spring为Mybatis提供了一种新开发方式“Mapper接口”，
+	这个配置用于扫描com.hwadee.ssm.mappers包下的所有有效的Mapper接口-->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.hwadee.ssm.mappers"/>
+	</bean>
+
+	<!--事务管理器transactionManager提供了声明式事务的支持，程序中执行成功提交，发生异常时回滚-->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+	<!--开启注解形式的声明式事务-->
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+	<mvc:interceptors>
+		<!--  <bean class="cn.lzc.interceptor.CustomInterceptor"></bean>--><!--拦截所有请求-->
+
+		<!-- <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <mvc:exclude-mapping path="/" /><&lt;!&ndash;配置了mapping 这个 将不再起作用&ndash;&gt;
+            <bean class="cn.lzc.interceptor.CustomInterceptor"></bean>
+        </mvc:interceptor>-->
+
+		<!--<mvc:interceptor>-->
+		<!--<mvc:mapping path="/hello" />&lt;!&ndash;配置拦截hello结尾的&ndash;&gt;-->
+		<!--<bean class="cn.lzc.interceptor.CustomInterceptor"/>-->
+		<!--</mvc:interceptor>-->
+
+		<!--登录拦截器-->
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean class="com.hwadee.ssm.interceptor.LoginInterceptor"/>
+		</mvc:interceptor>
+	</mvc:interceptors>
+</beans>

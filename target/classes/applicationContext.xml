@@ -33,7 +33,26 @@
 	</mvc:annotation-driven>
 	<!--启用默认处理方式，将静态资源排除在外（不解析静态资源）-->
 	<mvc:default-servlet-handler/>
+	<mvc:interceptors>
+		<!--  <bean class="cn.lzc.interceptor.CustomInterceptor"></bean>--><!--拦截所有请求-->
 
+		<!-- <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <mvc:exclude-mapping path="/" /><&lt;!&ndash;配置了mapping 这个 将不再起作用&ndash;&gt;
+            <bean class="cn.lzc.interceptor.CustomInterceptor"></bean>
+        </mvc:interceptor>-->
+
+		<!--<mvc:interceptor>-->
+		<!--<mvc:mapping path="/hello" />&lt;!&ndash;配置拦截hello结尾的&ndash;&gt;-->
+		<!--<bean class="cn.lzc.interceptor.CustomInterceptor"/>-->
+		<!--</mvc:interceptor>-->
+
+		<!--登录拦截器-->
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean class="com.hwadee.ssm.interceptor.LoginInterceptor"/>
+		</mvc:interceptor>
+	</mvc:interceptors>
 	<!--FreeMarkerViewResolver是Spring Context Support提供的整合类
 	在 IOC 容器初始化时通知 SpringMVC 默认使用 Freemarker 进行数据渲染-->
 	<bean id="ViewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
@@ -59,7 +78,7 @@
 	改由SpringIOC容器创建与管理，这样做的好处是配置方便，并在此基础上为Mybatis扩展了很多功能-->
 	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-		<property name="url" value="jdbc:mysql://172.16.111.176/workovertime?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
+		<property name="url" value="jdbc:mysql://172.16.111.176:3306/workovertime?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
 		<property name="username" value="root"/>
 		<property name="password" value="newpwd"/>
 		<!--在初始化连接池时默认创建的5个连接-->
