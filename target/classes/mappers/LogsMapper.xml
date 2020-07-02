@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace指向对应的接口-->
+<mapper namespace="com.hwadee.ssm.mappers.LogsMapper">
+  <!--sql id 与接口方法一一对应-->
+  <insert id="insert" parameterType="com.hwadee.ssm.entity.Logs" useGeneratedKeys="true" keyProperty="logId">
+    insert into logs (log_userId, log_state, log_date, log_award)
+    values (#{logUserId}, #{logState},#{logDate},(select award from work_overtime where data=#{logDate}));
+  </insert>
+  <select id="getApplys" resultType="com.hwadee.ssm.entity.Logs">
+    select DATE_FORMAT(log_date,'%Y-%m-%d') log_date,log_userId,log_state,log_award,log_id  from logs
+    where log_userId = #{logUserId}
+  </select>
+  <select id="getNeedWork" resultType="com.hwadee.ssm.entity.WorkOvertime">
+    select DATE_FORMAT(data,'%Y-%m-%d') data,award,type from work_overtime where data=#{workDay}
+  </select>
+  <select id="getApplyState" resultType="java.lang.Integer">
+    select ifnull(log_state,-1)
+    from logs
+    where log_userId=#{logUserId} and log_date=#{logDate}
+  </select>
+</mapper>
