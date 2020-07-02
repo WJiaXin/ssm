@@ -154,6 +154,13 @@
             <version>2.4</version>
             <classifier>jdk15</classifier>
         </dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -170,7 +177,7 @@
 					<!--应用启动启动后加载webapp的根目录-->
 					<webAppSourceDirectory>src/main/webapp</webAppSourceDirectory>
 					<httpConnector>
-						<port>8080</port> <!-- 应用程序端口修改为 80（http的默认端口) -->
+						<port>8085</port> <!-- 应用程序端口修改为 80（http的默认端口) -->
 					</httpConnector>
 				</configuration>
 			</plugin>
