@@ -45,7 +45,6 @@ public class LogsController {
             @ApiImplicitParam(name = "pageNum", value = "页面页数", dataType = "Integer",paramType = "query")})
     @ResponseBody
     public List<Logs> getApplys(String userId, Integer pageNum) {
-        System.out.println(userId);
         return logsService.getApplys(userId,pageNum,10);
     }
 
