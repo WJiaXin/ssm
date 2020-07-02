@@ -9,7 +9,7 @@ public class Logs implements Serializable {
   private int logId;
   private long logUserId;
   private int logState;
-  private Date logDate;
+  private String logDate;
   private String logAward;
 
 
@@ -40,11 +40,11 @@ public class Logs implements Serializable {
   }
 
 
-  public Date getLogDate() {
+  public String getLogDate() {
     return logDate;
   }
 
-  public void setLogDate(java.sql.Date logDate) {
+  public void setLogDate(String logDate) {
     this.logDate = logDate;
   }
 
