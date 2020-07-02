@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="workovertime@localhost">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.9">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.17">
     <root id="1">
       <ServerVersion>5.7.20</ServerVersion>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -54,7 +54,6 @@
     </schema>
     <schema id="17" parent="1" name="workovertime">
       <Current>1</Current>
-      <Visible>1</Visible>
       <Collation>utf8_general_ci</Collation>
     </schema>
     <collation id="18" parent="1" name="armscii8_bin">

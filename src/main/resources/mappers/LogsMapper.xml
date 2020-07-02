@@ -7,17 +7,18 @@
   <!--sql id 与接口方法一一对应-->
   <insert id="insert" parameterType="com.hwadee.ssm.entity.Logs" useGeneratedKeys="true" keyProperty="logId">
     insert into logs (log_userId, log_state, log_date, log_award)
-    values (#{logUserId}, #{logState},#{logDate},#{logAward});
+    values (#{logUserId}, #{logState},#{logDate},(select award from work_overtime where data=#{logDate}));
   </insert>
   <select id="getApplys" resultType="com.hwadee.ssm.entity.Logs">
     select * from logs
-    where log_userId = #{userId}
-    order by log_date
-    limit #{pageNum},#{pageCount}
+    where log_userId = #{logUserId}
   </select>
   <select id="getNeedWork" resultType="com.hwadee.ssm.entity.WorkOvertime">
-    select *
-    from work_overtime
-    where data=#{workDay}
+    select *from work_overtime where data=#{workDay}
+  </select>
+  <select id="getApplyState" resultType="java.lang.Integer">
+    select ifnull(log_state,-1)
+    from logs
+    where log_userId=#{logUserId} and log_date=#{logDate}
   </select>
 </mapper>

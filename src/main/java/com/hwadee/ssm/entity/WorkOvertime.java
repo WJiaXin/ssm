@@ -3,20 +3,21 @@ package com.hwadee.ssm.entity;
 import io.swagger.annotations.ApiModel;
 
 import java.io.Serializable;
+import java.util.Date;
 
 @ApiModel(value="workOvertime对象")
 public class WorkOvertime implements Serializable {
 
-  private String data;
+  private Date data;
   private String award;
   private int type;
 
 
-  public String getData() {
+  public Date getData() {
     return data;
   }
 
-  public void setData(String data) {
+  public void setData(Date data) {
     this.data = data;
   }
 
