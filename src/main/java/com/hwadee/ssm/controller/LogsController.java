@@ -32,10 +32,10 @@ public class LogsController {
     @ResponseBody
     public int applyWorkOvertime(long userId) throws ParseException {
         java.util.Date nowdate = new java.util.Date();
-        java.sql.Date date = new java.sql.Date(nowdate.getTime());
+
         Logs logs = new Logs();
         logs.setLogUserId(userId);
-        logs.setLogDate(date);
+
         logs.setLogState(0);
         return logsService.postApplys(logs);
     }

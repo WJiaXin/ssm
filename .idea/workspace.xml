@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f721ecd4-8363-4320-b71b-10df444ce0bd" name="Default Changelist" comment="zjl3">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
@@ -12,14 +11,9 @@
       <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1539c208-4f25-4432-8bbb-44d49f2d8154.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1539c208-4f25-4432-8bbb-44d49f2d8154.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/LogsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/LogsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/WorkOvertimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/WorkOvertimeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/WorkOvertime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/WorkOvertime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/mappers/LogsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/mappers/LogsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/service/LogsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/service/LogsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/LogsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/LogsMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
@@ -495,7 +489,7 @@
       <workItem from="1593597128270" duration="796000" />
       <workItem from="1593608346428" duration="11763000" />
       <workItem from="1593678936609" duration="212000" />
-      <workItem from="1593679199341" duration="1789000" />
+      <workItem from="1593679199341" duration="4004000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1593488998782</created>
@@ -539,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593597273472</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="zjl3">
+      <created>1593681107441</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593681107441</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,41 +576,46 @@
     <MESSAGE value="ssm2" />
     <MESSAGE value="ssm3" />
     <MESSAGE value="wjx_delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="wjx_delete" />
+    <MESSAGE value="zjl3" />
+    <option name="LAST_COMMIT_MESSAGE" value="zjl3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1593680992029">
+    <state x="385" y="10" key="CommitChangelistDialog2" timestamp="1593681101730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593680992029" />
-    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1593680992029">
+    <state x="385" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593681101730" />
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1593683040524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593680992029" />
-    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1593680992028">
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593683040524" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1593683040524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593680992028" />
-    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1593680992029">
+    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593683040524" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1593683040524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593680992029" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593683040524" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1593683040524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593683040524" />
     <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1593670782366">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1593670782366" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1593669014187">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1593681148577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593669014187" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593681148577" />
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1593679198587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593679198587" />
-    <state x="499" y="214" key="git4idea.merge.GitPullDialog" timestamp="1593668875966">
+    <state x="499" y="214" key="git4idea.merge.GitPullDialog" timestamp="1593683182266">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593668875966" />
+    <state x="499" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593683182266" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

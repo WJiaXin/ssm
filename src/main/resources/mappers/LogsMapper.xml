@@ -14,7 +14,7 @@
     where log_userId = #{logUserId}
   </select>
   <select id="getNeedWork" resultType="com.hwadee.ssm.entity.WorkOvertime">
-    select *from work_overtime where data=#{workDay}
+    select DATE_FORMAT(data,'%Y-%m-%d') data,award,type from work_overtime where data=#{workDay}
   </select>
   <select id="getApplyState" resultType="java.lang.Integer">
     select ifnull(log_state,-1)

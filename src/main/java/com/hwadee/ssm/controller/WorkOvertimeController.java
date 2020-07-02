@@ -7,8 +7,6 @@ import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.ServletRequest;
-import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @RestController
@@ -21,7 +19,7 @@ public class WorkOvertimeController{
     @ApiOperation("获取指定日期餐/费选择")
     @ApiImplicitParam(name = "data", value = "日期", required = false,
             dataType = "string", paramType = "path", defaultValue = "2020-06-29")
-    public WorkOvertime getData(@PathVariable("data") String data, ServletRequest request){
+    public WorkOvertime getData(@PathVariable("data") String data){
        return workOvertimeService.getData(data);
     }
 
