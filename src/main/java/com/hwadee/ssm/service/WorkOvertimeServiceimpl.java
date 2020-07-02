@@ -37,7 +37,7 @@ public class WorkOvertimeServiceimpl implements WorkOvertimeService{
         return pageDataUsers;
     }
     @Override
-    public List<JSONObject> getDataLogs(String startTime,String endTime,int page){
+    public JSONArray getDataLogs(String startTime,String endTime,int page){
         JSONArray pageDataLogs=new JSONArray();   //审批记录数据（1：总页数、2：人员信息）
         int dataLogsNums=workOvertimeDao.getDataLogsC(startTime,endTime);
         int start= (page-1)*10;
