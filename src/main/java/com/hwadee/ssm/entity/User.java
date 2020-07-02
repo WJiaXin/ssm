@@ -5,20 +5,10 @@ import java.io.Serializable;
 
 public class User implements Serializable {
 
-  private long id;
   private String name;
   private String pwd;
-  private long role;
+  private int role;
   private String phone;
-
-
-  public long getId() {
-    return id;
-  }
-
-  public void setId(long id) {
-    this.id = id;
-  }
 
 
   public String getName() {
@@ -39,11 +29,11 @@ public class User implements Serializable {
   }
 
 
-  public long getRole() {
+  public int getRole() {
     return role;
   }
 
-  public void setRole(long role) {
+  public void setRole(int role) {
     this.role = role;
   }
 

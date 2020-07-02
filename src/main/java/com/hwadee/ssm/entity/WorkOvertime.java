@@ -30,7 +30,7 @@ public class WorkOvertime implements Serializable {
   }
 
 
-  public long getType() {
+  public int getType() {
     return type;
   }
 

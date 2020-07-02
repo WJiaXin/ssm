@@ -2,21 +2,22 @@ package com.hwadee.ssm.entity;
 
 
 import java.io.Serializable;
+import java.util.Date;
 
 public class Logs implements Serializable {
 
-  private long logId;
+  private int logId;
   private long logUserId;
-  private long logState;
-  private java.sql.Date logDate;
+  private int logState;
+  private Date logDate;
   private String logAward;
 
 
-  public long getLogId() {
+  public int getLogId() {
     return logId;
   }
 
-  public void setLogId(long logId) {
+  public void setLogId(int logId) {
     this.logId = logId;
   }
 
@@ -30,16 +31,16 @@ public class Logs implements Serializable {
   }
 
 
-  public long getLogState() {
+  public int getLogState() {
     return logState;
   }
 
-  public void setLogState(long logState) {
+  public void setLogState(int logState) {
     this.logState = logState;
   }
 
 
-  public java.sql.Date getLogDate() {
+  public Date getLogDate() {
     return logDate;
   }
 
