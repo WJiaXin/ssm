@@ -1,5 +1,6 @@
 package com.hwadee.ssm.controller;
 
+import com.hwadee.ssm.entity.Goods;
 import com.hwadee.ssm.entity.Logs;
 import com.hwadee.ssm.entity.WorkOvertime;
 import com.hwadee.ssm.service.LogsServiceImpl;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
 import java.sql.Date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -27,9 +29,10 @@ public class LogsController {
     private LogsServiceImpl logsService = null;
 
     @PostMapping(value = "/applys")
-    @ApiImplicitParam(name = "userId", value = "组员电话", dataType = "long",paramType = "query")
     @ResponseBody
-    public int applyWorkOvertime(long userId) throws ParseException {
+    public int applyWorkOvertime(HttpSession session) throws ParseException {
+        Goods goods = (Goods) session.getAttribute("goods");
+        String userId = goods.getPhone();
         java.util.Date nowdate = new java.util.Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         String date = simpleDateFormat.format(nowdate);
@@ -41,10 +44,11 @@ public class LogsController {
     }
 
     @GetMapping(value = "/applys")
-    @ApiImplicitParam(name = "userId", value = "组员的手机号", dataType = "String",paramType = "query")
     @ResponseBody
-    public Map getApplys(String userId) {
+    public Map getApplys(HttpSession session) {
         int state = -2;
+        Goods goods = (Goods) session.getAttribute("goods");
+        String userId = goods.getPhone();
         java.util.Date nowdate = new java.util.Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         String date = simpleDateFormat.format(nowdate);

@@ -33,174 +33,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f721ecd4-8363-4320-b71b-10df444ce0bd" name="Default Changelist" comment="wjx_delete">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/mappers/GoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/goods-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/password_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/user_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/verify_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/hwadee/ssm/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/hwadee/ssm/entity/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/hwadee/ssm/entity/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/hwadee/ssm/entity/overtime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/hwadee/ssm/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/hwadee/ssm/mappers/GoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/hwadee/ssm/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/java/com/hwadee/ssm/swagger/Swagger2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/resources/mappers/goods-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/resources/webdefault.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/1234.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/WEB-INF/ftl/find.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/WEB-INF/ftl/list.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/WEB-INF/ftl/one-goods.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/WEB-INF/ftl/test.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/images/password_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/images/user_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/images/verify_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/layui1/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/login1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/main/webapp/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/test/java/com/hwadee/ssm/service/GoodsServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/LogsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/controller/LogsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/entity/Logs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ssm.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/controller/LogsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/controller/LogsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/controller/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/controller/WorkOvertimeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/controller/WorkOvertimeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/entity/Logs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/entity/Logs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/entity/WorkOvertime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/entity/WorkOvertime.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hwadee/ssm/service/GoodsServiceTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,6 +193,13 @@
       <recent name="C:\Users\77531\IdeaProjects\ssm2" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Maven.ssm [jetty:run]">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -461,24 +315,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoodsServiceTest.initGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hwadee.ssm.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hwadee.ssm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.hwadee.ssm.service.GoodsServiceTest" />
-      <option name="METHOD_NAME" value="initGoods" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ssm [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -504,23 +340,74 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="login.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.html" />
+      <deployment>
+        <artifact name="ssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="login_html_ssm" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Group" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.test" />
       <item itemvalue="JUnit.GoodsServiceTest" />
-      <item itemvalue="JUnit.GoodsServiceTest.initGoods" />
       <item itemvalue="Maven.ssm [jetty:run]" />
+      <item itemvalue="Tomcat Server.login.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat Server.login.html" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Group" />
         <item itemvalue="JUnit.GoodsServiceTest" />
-        <item itemvalue="JUnit.GoodsServiceTest.initGoods" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SpringBeansView">
     <option name="beanDetailsProportion" value="0.3" />
@@ -651,6 +538,7 @@
       <workItem from="1593608346428" duration="11763000" />
       <workItem from="1593682407336" duration="1972000" />
       <workItem from="1593684503917" duration="291000" />
+      <workItem from="1593692507614" duration="4631000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1593488998782</created>
@@ -707,7 +595,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -724,12 +612,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -741,26 +630,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="wjx_delete" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1200" height="210" key="GridCell.Tab.0.bottom" timestamp="1593684378852">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593700547224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1200" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593684378852" />
-    <state width="1200" height="210" key="GridCell.Tab.0.center" timestamp="1593684378852">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593700547224" />
+    <state x="548" y="170" key="FileChooserDialogImpl" timestamp="1593700541991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1200" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593684378852" />
-    <state width="1200" height="210" key="GridCell.Tab.0.left" timestamp="1593684378852">
+    <state x="548" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593700541991" />
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom" timestamp="1593700854034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1200" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593684378852" />
-    <state width="1200" height="210" key="GridCell.Tab.0.right" timestamp="1593684378852">
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593700854034" />
+    <state width="1024" height="210" key="GridCell.Tab.0.center" timestamp="1593700854034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1200" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593684378852" />
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1593682937739">
+    <state width="1024" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593700854034" />
+    <state width="1024" height="210" key="GridCell.Tab.0.left" timestamp="1593700854034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1593682937739" />
+    <state width="1024" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593700854034" />
+    <state width="1024" height="210" key="GridCell.Tab.0.right" timestamp="1593700854034">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593700854034" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1593698632194">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1593698632194" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1593700893122">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593700893122" />
+    <state x="499" y="214" key="git4idea.merge.GitPullDialog" timestamp="1593700874328">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593700874328" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

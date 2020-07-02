@@ -7,7 +7,7 @@ import java.util.Date;
 public class Logs implements Serializable {
 
   private int logId;
-  private long logUserId;
+  private String logUserId;
   private int logState;
   private String logDate;
   private String logAward;
@@ -22,11 +22,11 @@ public class Logs implements Serializable {
   }
 
 
-  public long getLogUserId() {
+  public String getLogUserId() {
     return logUserId;
   }
 
-  public void setLogUserId(long logUserId) {
+  public void setLogUserId(String logUserId) {
     this.logUserId = logUserId;
   }
 

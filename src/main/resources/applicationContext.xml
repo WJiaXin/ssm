@@ -78,7 +78,7 @@
 	改由SpringIOC容器创建与管理，这样做的好处是配置方便，并在此基础上为Mybatis扩展了很多功能-->
 	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-		<property name="url" value="jdbc:mysql://172.16.111.176:3306/workovertime?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
+		<property name="url" value="jdbc:mysql://localhost:3306/workovertime?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
 		<property name="username" value="root"/>
 		<property name="password" value="newpwd"/>
 		<!--在初始化连接池时默认创建的5个连接-->
