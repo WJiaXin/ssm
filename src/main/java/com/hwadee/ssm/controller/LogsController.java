@@ -26,21 +26,20 @@ public class LogsController {
     @Resource
     private LogsServiceImpl logsService = null;
 
-    @ApiOperation(value="组员申请",tags={"申请加班"})
     @PostMapping(value = "/applys")
     @ApiImplicitParam(name = "userId", value = "组员电话", dataType = "long",paramType = "query")
     @ResponseBody
     public int applyWorkOvertime(long userId) throws ParseException {
         java.util.Date nowdate = new java.util.Date();
-
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        String date = simpleDateFormat.format(nowdate);
         Logs logs = new Logs();
         logs.setLogUserId(userId);
-
+        logs.setLogDate(date);
         logs.setLogState(0);
         return logsService.postApplys(logs);
     }
 
-    @ApiOperation(value="获取组员申请记录",tags={"获取申请过的信息"})
     @GetMapping(value = "/applys")
     @ApiImplicitParam(name = "userId", value = "组员的手机号", dataType = "String",paramType = "query")
     @ResponseBody
@@ -61,7 +60,6 @@ public class LogsController {
         return map;
     }
 
-    @ApiOperation(value="查询某一天加班的情况",tags={"获取申请加班情况"})
     @GetMapping(value = "/workday")
     @ApiImplicitParam(name = "workDay",value = "想查询的日期(例：2020-07-01)",dataType = "String",paramType = "query")
     @ResponseBody

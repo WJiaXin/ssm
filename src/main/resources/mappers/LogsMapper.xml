@@ -10,7 +10,7 @@
     values (#{logUserId}, #{logState},#{logDate},(select award from work_overtime where data=#{logDate}));
   </insert>
   <select id="getApplys" resultType="com.hwadee.ssm.entity.Logs">
-    select * from logs
+    select DATE_FORMAT(log_date,'%Y-%m-%d') log_date,log_userId,log_state,log_award,log_id  from logs
     where log_userId = #{logUserId}
   </select>
   <select id="getNeedWork" resultType="com.hwadee.ssm.entity.WorkOvertime">

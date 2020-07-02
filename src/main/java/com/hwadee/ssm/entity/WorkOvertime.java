@@ -8,16 +8,16 @@ import java.util.Date;
 @ApiModel(value="workOvertime对象")
 public class WorkOvertime implements Serializable {
 
-  private Date data;
+  private String data;
   private String award;
   private int type;
 
 
-  public Date getData() {
+  public String getData() {
     return data;
   }
 
-  public void setData(Date data) {
+  public void setData(String data) {
     this.data = data;
   }
 
