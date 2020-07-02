@@ -5,13 +5,13 @@
 <!--namespace指向对应的接口-->
 <mapper namespace="com.hwadee.ssm.mappers.LogsMapper">
   <!--sql id 与接口方法一一对应-->
-  <insert id="insert" parameterType="com.hwadee.ssm.entity.Logs" useGeneratedKeys="true" keyProperty="log_id">
+  <insert id="insert" parameterType="com.hwadee.ssm.entity.Logs" useGeneratedKeys="true" keyProperty="logId">
     insert into logs (log_userId, log_state, log_date, log_award)
-    values (#{logUserid}, #{logState},#{logDate},#{logAward});
+    values (#{logUserId}, #{logState},#{logDate},#{logAward});
   </insert>
   <select id="getApplys" resultType="com.hwadee.ssm.entity.Logs">
     select * from logs
-    where log_userId = #{logUserId}
+    where log_userId = #{userId}
     order by log_date
     limit #{pageNum},#{pageCount}
   </select>

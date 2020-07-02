@@ -24,13 +24,13 @@ public class LogsController {
 
     @ApiOperation(value="组员申请",tags={"申请加班"})
     @PostMapping(value = "/applys")
-    @ApiImplicitParams({@ApiImplicitParam(name = "userId", value = "组员电话", dataType = "long"),
-            @ApiImplicitParam(name = "overTime", value = "加班日期", dataType = "String", example = "2020-06-30"),
-            @ApiImplicitParam(name = "award", value = "加班所得", dataType = "String", example = "套餐一")})
+    @ApiImplicitParams({@ApiImplicitParam(name = "userId", value = "组员电话", dataType = "long",paramType = "query"),
+            @ApiImplicitParam(name = "overTime", value = "加班日期", dataType = "String", example = "2020-06-30",paramType = "query"),
+            @ApiImplicitParam(name = "award", value = "加班所得", dataType = "String", example = "套餐一",paramType = "query")})
     @ResponseBody
     public int applyWorkOvertime(long userId,String overTime,String award) throws ParseException {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");//注意月份是MM
-        Date date = (Date) simpleDateFormat.parse(overTime);
+        java.sql.Date date = new java.sql.Date(simpleDateFormat.parse(overTime).getTime());
         Logs logs = new Logs();
         logs.setLogUserId(userId);
         logs.setLogDate(date);
@@ -41,16 +41,17 @@ public class LogsController {
 
     @ApiOperation(value="获取组员申请记录",tags={"获取申请过的信息"})
     @GetMapping(value = "/applys")
-    @ApiImplicitParams({@ApiImplicitParam(name = "userId", value = "组员的手机号", dataType = "String"),
-            @ApiImplicitParam(name = "pageNum", value = "页面页数", dataType = "Integer")})
+    @ApiImplicitParams({@ApiImplicitParam(name = "userId", value = "组员的手机号", dataType = "String",paramType = "query"),
+            @ApiImplicitParam(name = "pageNum", value = "页面页数", dataType = "Integer",paramType = "query")})
     @ResponseBody
-    public List<Logs> getApplys(String userId, int pageNum) {
+    public List<Logs> getApplys(String userId, Integer pageNum) {
+        System.out.println(userId);
         return logsService.getApplys(userId,pageNum,10);
     }
 
     @ApiOperation(value="获取某一天是否有加班",tags={"获取是否有加班"})
     @GetMapping(value = "/workday")
-    @ApiImplicitParam(name = "workDay", value = "选择的日期", dataType = "String")
+    @ApiImplicitParam(name = "workDay", value = "选择的日期", dataType = "String",paramType = "query")
     @ResponseBody
     public WorkOvertime getNeedWork(String workDay) {
         return logsService.getNeedWork(workDay);

@@ -12,6 +12,6 @@ import java.util.List;
 @Repository
 public interface LogsMapper {
     int insert(Logs record);
-    List<Logs> getApplys(String userId, @Param("pageNum") int pageNum,@Param("pageCount") int pageCount);
+    List<Logs> getApplys(@Param("userId") String userId, @Param("pageNum") int pageNum,@Param("pageCount") int pageCount);
     WorkOvertime getNeedWork(String workDay);
 }
