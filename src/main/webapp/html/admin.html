@@ -6,6 +6,7 @@
 </head>
 <link href="../bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="http://cdn.bootcss.com/bootstrap-daterangepicker/2.1.25/daterangepicker.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 <link href="http://at.alicdn.com/t/font_1216890_wxh988aybv.css"  rel="stylesheet">
 <script src="../jquery-3.4.1.js"></script>
@@ -13,6 +14,8 @@
 <script src="../js/admin.js"></script>
 <script src="https://cdn.bootcss.com/moment.js/2.24.0/moment-with-locales.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap-daterangepicker/2.1.25/moment.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap-daterangepicker/2.1.25/daterangepicker.js"></script>
 <style>
     a{
         color:#a7b1c2;
@@ -24,6 +27,13 @@
         padding: 0.75rem;
         vertical-align: middle;
         border-top: 1px solid #dee2e6;
+    }
+    .pageA{
+        background-color:#2e4250 !important;
+        color: #FFF !important;;
+    }
+    .pageB{
+        pointer-events:none;
     }
 </style>
 <body>
@@ -114,7 +124,8 @@
                                    </div>
                                </div>
 
-                           <button class="btn btn-default ml-2" style="background-color: #2e4250; color:#FFF;height:40px;display: none;" onclick="confirmWO()" id="confirm">确认</button>
+                           <button class="btn btn-default ml-2" style="background-color: #2e4250; color:#FFF;height:40px;display: none;" onclick="confirmWO()" id="confirm">添加</button>
+                           <button class="btn btn-default ml-2" style="background-color: #2e4250; color:#FFF;height:40px;display: none;" onclick="putWO()" id="put">修改</button>
 
 
 
@@ -131,7 +142,7 @@
                                </div>
                                <input type="text" class="form-control border-0"  placeholder="统计日期" id="Sdate" >
                            </div>
-                           <button class="btn btn-default ml-2" style="background-color: #2f4050; color:#FFF;height:40px;" onclick="search()">查询</button>
+                           <button class="btn btn-default ml-2" style="background-color: #2f4050; color:#FFF;height:40px;" onclick="searchUser(1)">查询</button>
                            <hr>
                            <h5 class="mb-3">加班统计</h5>
                            <table class="table" style="border-top: solid 2px">
@@ -139,47 +150,49 @@
                                    <th>序号</th> <th>日期</th>  <th>姓名</th> <th>号码</th> <th>加班餐/费</th> <th>内容</th>
                                </tr>
                                </thead>
-                               <tbody class="table-primary">
-                               <tr>
-                                   <td> 1 </td> <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐</td> <td>套餐1</td>
-                               </tr>
-                               <tr>
-                                   <td> 2 </td> <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班费</td> <td>100元</td>
-                               </tr>
-                               <tr>
-                                   <td> 3 </td> <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐</td> <td>套餐1</td>
-                               </tr>
+                               <tbody class="table-primary" id="userList">
                                </tbody>
                            </table>
 
                        </div>
 
-                       <div id="WOexa" class="tab-pane h-100 p-0">
-                           <table class="table">
+                       <div id="WOexa" class="tab-pane h-100 p-3">
+                           <h5>选择日期</h5>
+                           <div class="rounded bg-white d-flex w-25 float-left" style="height:40px; border:#DDD solid 1px;">
+                               <div class=" ml-3 mr-3 bg-white float-left" id="daterange" style="line-height:38px;">
+                                   <span class="glyphicon glyphicon-calendar" style="color:#2e4250;"></span>
+                               </div>
+                               <div id="daterangeC" class="flex-fill w-auto" style="color:#999;height:100%;float:left;font-size:14px;line-height:38px; padding-right:10px;">起始日期-结束日期
+                               </div>
+                           </div>
+                           <button class="btn btn-default ml-2" style="background-color: #2f4050; color:#FFF;height:40px;" onclick="searchUser(1)">查询</button>
+                           <hr>
+                           <h5 class="mb-3">加班审批</h5>
+                           <table class="table" style="border-top: solid 2px">
                                <tr>
                                    <th>日期</th>  <th>姓名</th> <th>号码</th> <th>申请内容</th> <th>审批</th>
                                </tr>
                                </thead>
-                               <tbody >
+                               <tbody id="exaList">
                                <tr >
                                    <td valign="middle">01/04/2012</td> <td valign="middle"> 张三</td> <td valign="middle">11122223333</td> <td valign="middle">加班餐：套餐2</td>
-                                   <td valign="middle"> <button class="btn btn-default rounded mr-3 pt-1 pb-1" style="background-color: #00CC00; color:#FFF;">同意</button> <button class="btn btn-default rounded pt-1 pb-1" style="background-color:#b92c28; color:#FFF;">拒绝</button></td>
+                                   <td valign="middle"> <button class="btn btn-default rounded mr-3 pt-1 pb-1 badge-primary" style="color:#FFF;">同意</button> <button class="btn btn-default rounded pt-1 pb-1 badge-danger" style="color:#FFF;">拒绝</button></td>
                                </tr>
                                <tr>
                                    <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐：套餐2</td>
-                                   <td> <button class="btn btn-default rounded mr-3 pt-1 pb-1" style="background-color: #00CC00; color:#FFF;">同意</button> <button class="btn btn-default rounded pt-1 pb-1" style="background-color:#b92c28; color:#FFF;">拒绝</button></td>
+                                   <td> <button class="btn btn-default rounded mr-3 pt-1 pb-1 badge-primary" style="color:#FFF;">同意</button> <button class="btn btn-default rounded pt-1 pb-1 badge-danger" style="color:#FFF;">拒绝</button></td>
                                </tr>
                                <tr>
                                   <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐：套餐2</td>
-                                   <td> <button class="btn btn-default rounded mr-3 pt-1 pb-1" style="background-color: #00CC00; color:#FFF;">同意</button> <button class="btn btn-default rounded pt-1 pb-1" style="background-color:#b92c28; color:#FFF;">拒绝</button></td>
+                                   <td> <button class="btn btn-default rounded mr-3 pt-1 pb-1 badge-primary"  style=" color:#FFF;">同意</button> <button class="btn btn-default rounded pt-1 pb-1 badge-danger" style="color:#FFF;">拒绝</button></td>
                                </tr>
                                <tr>
                                    <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐：套餐2</td>
-                                   <td style="color: #00CC00;"> 已同意 </td>
+                                   <td style="color: #2e4250;font-weight: bold;"> 已同意 </td>
                                </tr>
                                <tr>
                                    <td>01/04/2012</td> <td> 张三</td> <td>11122223333</td> <td>加班餐：套餐2</td>
-                                   <td style="color: #b92c28;"> 已拒绝 </td>
+                                   <td style="color: #2e4250;font-weight: bold;"> 已拒绝 </td>
                                </tr>
                                </tbody>
                            </table>

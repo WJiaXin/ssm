@@ -3,6 +3,7 @@ package com.hwadee.ssm.controller;
 import com.hwadee.ssm.entity.WorkOvertime;
 import com.hwadee.ssm.service.WorkOvertimeService;
 import io.swagger.annotations.*;
+import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -38,19 +39,26 @@ public class WorkOvertimeController{
         return workOvertimeService.putData(workOvertime);
     }
 
-    @GetMapping("workOvertime/user/{data}")
+    @GetMapping("workOvertime/user/{data}/{page}")
     @ApiOperation("获取指定日期加班人员")
-    @ApiImplicitParam(name = "data", value = "日期", required = false,
-            dataType = "string", paramType = "path", defaultValue = "2020-06-29")
-    public List<JSONObject> getDataUsers(@PathVariable("data") String data){
-        return workOvertimeService.getDataUsers(data);
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "data", value = "日期", required = false,
+                    dataType = "string", paramType = "path", defaultValue = "2020-06-29"),
+            @ApiImplicitParam(name = "page", value = "页码", required = false,
+                    dataType = "int", paramType = "path", defaultValue = "1")
     }
-    @GetMapping("workOvertime/logs/{data}")
+    )
+    public JSONArray getDataUsers(@PathVariable("data") String data, @PathVariable("page") Integer page){
+
+        return workOvertimeService.getDataUsers(data,page);
+    }
+    @GetMapping("workOvertime/logs/{data}/{page}")
     @ApiOperation("获取指定日期申请记录")
     @ApiImplicitParam(name = "data", value = "日期", required = false,
-            dataType = "string", paramType = "path", defaultValue = "2020-06-29")
-    public List<JSONObject> getDataLogs(@PathVariable("data") String data){
-        return workOvertimeService.getDataLogs(data);
+            dataType = "string", paramType = "path", defaultValue = "2020-06-28 至 2020-06-28")
+    public JSONArray getDataLogs(@PathVariable("data") String data,@PathVariable("page") Integer page){
+        String[] SEdata=data.split(" 至 ");
+        return workOvertimeService.getDataLogs(SEdata[0],SEdata[1],page);
     }
 
     @PutMapping("workOvertime/logs/{log_id}/{state}")
