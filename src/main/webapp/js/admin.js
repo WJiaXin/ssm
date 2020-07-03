@@ -80,9 +80,12 @@ function searchWO() {
                    $('#WOfood').css('cssText', 'height:40px; border:#DDD solid 1px;display:none !important');
                    if(days<=7){
                        $('select:eq(0)').attr("disabled","disabled");
-                       $('#money').attr("readonly","readonly")
+                       $('#money').attr("readonly","readonly");
+                       $('#confirm').hide();
+                       $('#put').hide();
                    }else {
                        $('#put').show();
+                       $('#confirm').hide();
                    }
                }else{
                    $('#WOfood').css('cssText', 'height:40px; border:#DDD solid 1px;display:flex');
@@ -91,8 +94,11 @@ function searchWO() {
                    if(days<=7){
                        $('select:eq(0)').attr("disabled","disabled")
                        $('select:eq(1)').attr("disabled","disabled");
+                       $('#confirm').hide();
+                       $('#put').hide();
                    }else {
                        $('#put').show();
+                       $('#confirm').hide();
                    }
                }
             }else{
@@ -167,7 +173,8 @@ function searchUser(nextPage){
         url:"/workOvertime/user/"+$('#Sdate').val()+"/"+nextPage,
         type:"get",
         success: function (data) {
-            let pageAll=data[0];
+            $('#userList').html("");
+            pageAll=data[0];
             let users=data[1];
             let type=['','加班费','加班餐'];
             var userList="";
@@ -187,16 +194,72 @@ function searchUser(nextPage){
 }
 function searchExa(nextPage){
 $.ajax({
-    url:"/workOvertime/logs/"+$('#daterangeC').text(),
+    url:"/workOvertime/logs/"+$('#daterangeC').text()+"/"+nextPage,
     type:"get",
     success: function (data) {
-      var pageAll=data[0];
+        $('#exaList').html("");
+     pageAll=data[0];
       var logs=data[1];
+      var str="";
+      for(let i in logs){
+          var date1 = new Date(logs[i].date);
+          var date2 = new Date();
+          var days=Math.floor((date1.getTime()-date2.getTime())/(3600*1000));
+          console.log(days);
+        switch (logs[i].log_state) {
+            case 0:
+
+                if(days>7) {
+                    str += "<tr >\n" +
+                        "                                   <td valign=\"middle\">" + logs[i].date + "</td> <td valign=\"middle\"> " + logs[i].name + "</td> <td valign=\"middle\">" + logs[i].phone + "</td> <td valign=\"middle\">" + logs[i].log_award + "</td>\n" +
+                        "                                   <td valign=\"middle\"> <button class=\"btn btn-default rounded mr-3 pt-1 pb-1 badge-primary\" style=\"color:#FFF;\" onclick='putLogs(" + logs[i].log_id + ",1)'>同意</button> <button class=\"btn btn-default rounded pt-1 pb-1 badge-danger\" style=\"color:#FFF;\" onclick='putLogs(" + logs[i].log_id + ",2)'>拒绝</button></td>\n" +
+                        "                               </tr>";
+                }else{
+                    str += "<tr >\n" +
+                        "                                   <td valign=\"middle\">" + logs[i].date + "</td> <td valign=\"middle\"> " + logs[i].name + "</td> <td valign=\"middle\">" + logs[i].phone + "</td> <td valign=\"middle\">" + logs[i].log_award + "</td>\n" +
+                        "                                   <td style=\"color: #6c757d;font-weight: bold;\"> 未审核 </td>\n" +
+                        "                               </tr>";
+                }
+                break;
+            case 1:
+                str+="<tr>\n" +
+                    "                                   <td>"+logs[i].date+"</td> <td> "+logs[i].name+"</td> <td>"+logs[i].phone+"</td> <td>"+logs[i].log_award+"</td>\n" +
+                    "                                   <td style=\"color: #2e4250;font-weight: bold;\"> 已同意 </td>\n" +
+                    "                               </tr>";
+                break;
+            case 2:
+                str+="<tr>\n" +
+                    "                                   <td>"+logs[i].date+"</td> <td> "+logs[i].name+"</td> <td>"+logs[i].phone+"</td> <td>"+logs[i].log_award+"</td>\n" +
+                    "                                   <td style=\"color: #2e4250;font-weight: bold;\"> 已拒绝 </td>\n" +
+                    "                               </tr>";
+                break;
+        }
+      }
+        $('#exaList').html(str);
+        $('#WOexa .align-self-end').remove();
+        $('#WOexa').append(setPage("searchExa",pageAll,nextPage));
+        changePage("WOexa",nextPage);
     },
     error: function () {
         alert("查询失败!!!");
     }
 })
+}
+
+function putLogs(logId,state) {
+   $.ajax({
+       url:"/workOvertime/logs/"+logId+"/"+state,
+       type:"put",
+       success: function (data) {
+           alert("操作成功！");
+           searchExa(1);
+       },
+       error: function () {
+           alert("查询失败!!!");
+       }
+
+   })
+
 }
 function setPage(method,pageAll,nextPage) {           //建立分页
     str="<div class=\"bg-white m-4 align-self-end\" style=\"font-size:16px;\">\n" +
@@ -214,15 +277,15 @@ function setPage(method,pageAll,nextPage) {           //建立分页
         str=str+" <li class=\"page-item\" >\n" +
             "                          <p class=\"page-link\" style='color: #2e4250'>...</p>\n" +
             "                      </li>";
-        str=str+" <li class=\"page-item\"  onclick=\""+method+"('"+i+"')\">\n" +
+        str=str+" <li class=\"page-item\"  onclick=\""+method+"('"+pageAll+"')\">\n" +
             "                          <a class=\"page-link\"  style='color: #2e4250'>"+pageAll+"</a>\n" +
             "                      </li>";
-        str=str+" <li class=\"page-item\"  onclick=\""+method+"('"+i+"')\">\n" +
+        str=str+" <li class=\"page-item\"  onclick=\""+method+"('"+(nextPage*1+1)+"')\">\n" +
             "                          <a class=\"page-link\" style='color: #2e4250'>next</a>\n" +
             "                      </li>";
     }else {
         if (pageAll >1) {
-            str=str+" <li class=\"page-item\" onclick=\""+method+"('"+i+"')\">\n" +
+            str=str+" <li class=\"page-item\" onclick=\""+method+"('"+(nextPage*1-1)+"')\">\n" +
                 "                          <a class=\"page-link\" style='color: #2e4250'>pre</a>\n" +
                 "                      </li>";}
         for (var i = 1; i <= pageAll; i++) {
@@ -231,7 +294,7 @@ function setPage(method,pageAll,nextPage) {           //建立分页
                 "                      </li>";
         }
         if (pageAll > 1) {
-            str=str+" <li class=\"page-item\"  onclick=\""+method+"('"+i+"')\">\n" +
+            str=str+" <li class=\"page-item\"  onclick=\""+method+"('"+(nextPage*1+1)+"')\">\n" +
                 "                          <a class=\"page-link\" style='color: #2e4250'>next</a>\n" +
                 "                      </li>";
         }
