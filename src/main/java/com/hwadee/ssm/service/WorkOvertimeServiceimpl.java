@@ -40,8 +40,8 @@ public class WorkOvertimeServiceimpl implements WorkOvertimeService{
     public JSONArray getDataLogs(String startTime,String endTime,int page){
         JSONArray pageDataLogs=new JSONArray();   //审批记录数据（1：总页数、2：人员信息）
         int dataLogsNums=workOvertimeDao.getDataLogsC(startTime,endTime);
-        int start= (page-1)*10;
-        pageDataLogs.add(0,(dataLogsNums%10==0)?dataLogsNums/10:(dataLogsNums/10+1));
+        int start= (page-1)*4;
+        pageDataLogs.add(0,(dataLogsNums%4==0)?dataLogsNums/4:(dataLogsNums/4+1));
         pageDataLogs.add(1,workOvertimeDao.getDataLogs(startTime,endTime,start));
         return pageDataLogs;
     }
