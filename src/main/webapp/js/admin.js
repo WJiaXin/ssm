@@ -87,6 +87,7 @@ function searchWO() {
                        $('#put').show();
                        $('#confirm').hide();
                    }
+                   flag=1;
                }else{
                    $('#WOfood').css('cssText', 'height:40px; border:#DDD solid 1px;display:flex');
                    $('#WOfood').val(WO.award);
@@ -100,6 +101,7 @@ function searchWO() {
                        $('#put').show();
                        $('#confirm').hide();
                    }
+                   flag=2;
                }
             }else{
                 $('select:eq(0)').removeAttr("disabled");
@@ -135,9 +137,10 @@ function confirmWO() {
         }),
         contentType: "application/json",
         success: function (data) {
+            alert("添加成功!!!");
         },
         error: function () {
-            alert("查询失败!!!");
+            alert("添加失败!!!");
         }
 
     })
@@ -161,9 +164,10 @@ function confirmWO() {
             }),
             contentType: "application/json",
             success: function (data) {
+                alert("修改成功!!!");
             },
             error: function () {
-                alert("查询失败!!!");
+                alert("修改失败!!!");
             }
 
         })
