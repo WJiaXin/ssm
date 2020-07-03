@@ -137,8 +137,7 @@
 
                     <select class="select1" id="st" name="st0">
                         <option value="10"  id="st0"name="st"  selected >请选择身份类型</option>
-                        <option value="1"  id="st1"name="st"     >组员</option>
-                        <option value="2" id="st2" name="st"     >组长</option>
+                        <option value="2"  id="st1"name="st"     >组员</option>
                         <option value="0" id="st3" name="st"  >管理员</option>
                     </select>
                 </li>
@@ -181,13 +180,14 @@
                         ,success(data){
                             console.log(data);
                             $.cookie('userId',data);  // 创建 cookie
-                            if(data.username!=="总管理员"){
-                                //myWindow1=window.open('1234.html','_self','width=500,height=500');
-                                //myWindow1.focus();
-                                alert("登录失败，请确认账号密码和身份类型")
-                                console.log(data.username);
-                            }else if(data.username==="总管理员"){
+                            if(data.role===0){
                                 myWindow=window.open('/html/admin.html','_self','width=500,height=500');
+                                myWindow.focus();
+                                console.log(data.username);
+
+                                console.log(data.username);
+                            }else if(data.role===2){
+                                myWindow=window.open('success.html','_self','width=500,height=500');
                                 myWindow.focus();
                                 console.log(data.username);
                             }
