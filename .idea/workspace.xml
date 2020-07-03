@@ -32,16 +32,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ecd4-8363-4320-b71b-10df444ce0bd" name="Default Changelist" comment="wjx_delete">
-      <change afterPath="$PROJECT_DIR$/.idea/ssm3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="f721ecd4-8363-4320-b71b-10df444ce0bd" name="Default Changelist" comment="wjx_add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hwadee/ssm/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/admin.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+            <state relative-caret-position="-205">
+              <caret line="216" column="27" selection-start-line="216" selection-start-column="27" selection-end-line="216" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#1;n#td#4;n#tr#0;n#!!top" expanded="true" />
@@ -119,10 +112,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/classes/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1368" />
+            <state relative-caret-position="190">
+              <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -231,6 +226,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hwadee/ssm/service/WorkOvertimeServiceimpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/WorkOvertimeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/html/admin.html" />
+        <option value="$PROJECT_DIR$/target/classes/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/admin.js" />
       </list>
     </option>
@@ -844,7 +840,7 @@
       <workItem from="1593682407336" duration="1972000" />
       <workItem from="1593684503917" duration="291000" />
       <workItem from="1593692507614" duration="4631000" />
-      <workItem from="1593738381205" duration="12408000" />
+      <workItem from="1593738381205" duration="14207000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1593488998782</created>
@@ -923,11 +919,25 @@
       <option name="project" value="LOCAL" />
       <updated>1593754147753</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="wjx_123">
+      <created>1593754542957</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593754542957</updated>
+    </task>
+    <task id="LOCAL-00013" summary="wjx_add">
+      <created>1593754671892</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593754671892</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12408000" />
+    <option name="totallyTimeSpent" value="14207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1014,9 +1024,11 @@
     <MESSAGE value="ssm2" />
     <MESSAGE value="ssm3" />
     <MESSAGE value="wjx_2" />
-    <MESSAGE value="wjx_delete" />
     <MESSAGE value="wjx_put" />
-    <option name="LAST_COMMIT_MESSAGE" value="wjx_put" />
+    <MESSAGE value="wjx_delete" />
+    <MESSAGE value="wjx_123" />
+    <MESSAGE value="wjx_add" />
+    <option name="LAST_COMMIT_MESSAGE" value="wjx_add" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593700547224">
@@ -1055,6 +1067,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1593700874328" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1147,10 +1164,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="191" column="59" lean-forward="true" selection-start-line="191" selection-start-column="59" selection-end-line="191" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        <state relative-caret-position="-205">
+          <caret line="216" column="27" selection-start-line="216" selection-start-column="27" selection-end-line="216" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#button#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#td#4;n#tr#0;n#!!top" expanded="true" />
@@ -1168,18 +1199,6 @@
             <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="191" column="59" lean-forward="true" selection-start-line="191" selection-start-column="59" selection-end-line="191" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1368" />
       </provider>
     </entry>
   </component>

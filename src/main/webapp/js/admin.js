@@ -214,7 +214,7 @@ $.ajax({
         switch (logs[i].log_state) {
             case 0:
 
-                if(days>7) {
+                if(days>-24) {
                     str += "<tr >\n" +
                         "                                   <td valign=\"middle\">" + logs[i].date + "</td> <td valign=\"middle\"> " + logs[i].name + "</td> <td valign=\"middle\">" + logs[i].phone + "</td> <td valign=\"middle\">" + logs[i].log_award + "</td>\n" +
                         "                                   <td valign=\"middle\"> <button class=\"btn btn-default rounded mr-3 pt-1 pb-1 badge-primary\" style=\"color:#FFF;\" onclick='putLogs(" + logs[i].log_id + ",1)'>同意</button> <button class=\"btn btn-default rounded pt-1 pb-1 badge-danger\" style=\"color:#FFF;\" onclick='putLogs(" + logs[i].log_id + ",2)'>拒绝</button></td>\n" +
