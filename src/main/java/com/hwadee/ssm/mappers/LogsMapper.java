@@ -15,5 +15,5 @@ public interface LogsMapper {
     int insert(Logs record);
     List<Logs> getApplys(String logUserId);
     WorkOvertime getNeedWork(@Param("workDay") String workDay);
-    int getApplyState(String userId, String workDay);
+    int getApplyState(@Param("logUserId")String logUserId,@Param("logDate") String logDate);
 }
