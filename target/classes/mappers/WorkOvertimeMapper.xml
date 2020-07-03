@@ -26,14 +26,14 @@
 		limit #{page},10
 	</select>
 	<select id="getDataLogsC" resultType="int">
-		select count(log_id) from logs where l.log_date between #{startTime} and #{endTime}
+		select count(log_id) from logs where log_date between #{startTime} and #{endTime}
 	</select>
 	<select id="getDataLogs" resultType="net.sf.json.JSONObject">
 		select l.log_id,DATE_FORMAT(l.log_date,'%Y-%m-%d') date,u.name,u.phone,l.log_award,log_state
 		from logs l left join  user u
 			on l.log_userId=u.phone
 		where l.log_date between #{startTime} and #{endTime}
-		limit #{page},10
+		limit #{page},4
 	</select>
 	<update id="putLogs">
 		update logs set log_state=#{state} where log_id=#{logId}

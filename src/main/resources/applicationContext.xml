@@ -49,7 +49,7 @@
 
 		<!--登录拦截器-->
 		<mvc:interceptor>
-			<mvc:mapping path="/**"/>
+			<mvc:mapping path="/html/**"/>
 			<bean class="com.hwadee.ssm.interceptor.LoginInterceptor"/>
 		</mvc:interceptor>
 	</mvc:interceptors>
