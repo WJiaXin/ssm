@@ -14,9 +14,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         //获取请求的RUi:去除http:localhost:8080这部分剩下的
         String uri = request.getRequestURI();
         //UTL:除了login.jsp是可以公开访问的，其他的URL都进行拦截控制
-        if (uri.indexOf("/login1.html") >= 0||uri.indexOf("/login") >= 0||uri.indexOf("/checklogin") >= 0) {
-            return true;
-         }
+
         //获取session
         HttpSession session = request.getSession();
         Goods user = (Goods) session.getAttribute("goods");
