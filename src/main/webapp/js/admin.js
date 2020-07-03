@@ -188,6 +188,7 @@ function searchUser(nextPage){
                 "                               </tr>";
             }
             $('#userList').html(userList);
+            $('#WOS .align-self-end').remove();
             $('#WOS').append(setPage("searchUser",pageAll,nextPage));
             changePage("WOS",nextPage);
         },
