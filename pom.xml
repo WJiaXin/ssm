@@ -94,7 +94,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<version>4.13.1</version>
 		</dependency>
 		<!-- Spring-Test是Spring与Junit提供的整合包
 			通过这个组件可以在Junit测试时自动对IOC容器进行初始化
